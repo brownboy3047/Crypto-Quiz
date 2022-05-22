@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYPO-QUIZ</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--top section-->
+    <header>
+        <div class="head-name">
+            <h1>CRYPTO QUIZ</h1>
+        </div>
+    </header>
+
+    <!-- result section-->
+
+    <div class="result d-none">
+
+        <div class="result-view">
+            <p>You are <span class="text">0%</span> &nbsp right</p>
+        </div>
+    </div>
+
+    <!--quiz section-->
+
+    <main>
+        <div class="container">
+
+            <h1>on with the questions...</h1>
+
+            <form class="quiz-form">
+
+                <div class="quest">
+                    <p>1.Which of the following is popularly used for storing bitcoins?</p>
+
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label>Pocket</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label>Wallet</label>
+                    </div>
+                </div>
+
+                <div class="quest">
+                    <p>2.Which site run by Ross Ulbricht was closed by the FBI for letting people buy drugs with
+                        Bitcoin?</p>
+
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label>Dark Alley</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label>Silk Road</label>
+                    </div>
+                </div>
+
+                <div class="quest">
+                    <p>3.Which of these US states introduced the BitLicense regulation for cryptocurrency companies?</p>
+
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label>Texas</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label>New York</label>
+                    </div>
+                </div>
+
+                <div class="quest">
+                    <p>4.What time did Bitcoin Network Start?</p>
+
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label>November 2008</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label>January 2009</label>
+                    </div>
+                </div>
+
+                <div class="quest">
+                    <p>5.What is the name of the first academic paper that describes bitcoin commonly referred to as?
+                    </p>
+
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label>The origins of money</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label>The Bitcoin Whitepaper</label>
+                    </div>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
